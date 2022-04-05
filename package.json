@@ -1,0 +1,39 @@
+{
+	"name": "myblog",
+	"version": "1.0.0",
+	"description": "My blog app built with Nodejs, Express and MongoDB",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/minhquach8/myblog.git"
+	},
+	"keywords": [
+		"blog"
+	],
+	"author": "MinhQuach",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/minhquach8/myblog/issues"
+	},
+	"homepage": "https://github.com/minhquach8/myblog#readme",
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"body-parser": "^1.20.0",
+		"connect-flash": "^0.1.1",
+		"ejs": "^3.1.6",
+		"express": "^4.17.3",
+		"express-fileupload": "^1.3.1",
+		"express-session": "^1.17.2",
+		"mongoose": "^6.2.10",
+		"mongoose-unique-validator": "^3.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	},
+	"engines": {
+		"node": "16.14.0"
+	}
+}
