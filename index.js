@@ -4,7 +4,7 @@ const ejs = require("ejs");
 
 const mongoose = require("mongoose");
 mongoose.connect(
-	"mongodb+srv://practice:123@practice.ktytf.mongodb.net/myblog?retryWrites=true&w=majority"
+	
 );
 
 const bodyParser = require("body-parser");
